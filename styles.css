@@ -1,0 +1,24 @@
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 960px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body {
+  background-image: url('tu_imagen.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
